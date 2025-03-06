@@ -1,3 +1,6 @@
+import asyncio
+
 import uvloop
 
-uvloop.run(main())
+uvloop.install()
+asyncio.run(main())
